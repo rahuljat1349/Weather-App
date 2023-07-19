@@ -36,7 +36,7 @@ const checkweather = async (cityname) => {
     else {
 
         document.querySelector(".city").innerHTML = weatherdata.name
-        document.querySelector(".temp").innerHTML = Math.round(weatherdata.main.temp) + " °C"
+        document.querySelector(".temp").innerHTML = Math.round(weatherdata.main.temp) + "°C"
         document.querySelector(".hum").innerHTML = weatherdata.main.humidity + "%"
         document.querySelector(".w-s").innerHTML = weatherdata.wind.speed + " km/h"
 
